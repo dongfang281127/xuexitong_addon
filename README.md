@@ -11,7 +11,7 @@
 | :--- | :--- | :--- |
 | **Firefox** | [![Get it on Firefox](https://img.shields.io/badge/Firefox-Get%20Extension-FF7139?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/zh-CN/firefox/addon/%E5%AD%A6%E4%B9%A0%E9%80%9A%E5%85%A8%E8%83%BD%E5%8A%A9%E6%89%8B/) | ✅ **商店已上架** |
 | **Edge** | [![Get it on Edge](https://img.shields.io/badge/Microsoft%20Edge-Get%20Extension-0078D7?logo=microsoft-edge&logoColor=white)](https://microsoftedge.microsoft.com/addons/detail/ogofhmkekkldjoamgoofcejdpdfdbmen) | ✅ **商店已上架** |
-| **Chrome** | [⬇️ 下载离线安装包 (v4.8)](https://github.com/你的用户名/你的仓库名/releases/latest) | 📦 **需手动安装** |
+| **Chrome** | [⬇️ 下载离线安装包 (v4.8)](https://github.com/dongfang281127/-/releases/download/v4.8/xuexitong_addon.zip) | 📦 **需手动安装** |
 
 > **提示**：Chrome 用户请下载 ZIP 包解压后，在开发者模式下加载。
 
