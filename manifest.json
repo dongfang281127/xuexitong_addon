@@ -1,40 +1,30 @@
 {
   "manifest_version": 3,
   "name": "学习通全能助手 (自动翻页版)",
-  "version": "4.8",
-  "description": "集成了自动抓取、自动翻页、多格式导出与考试答题功能",
-
-
+  "version": "5.0",
+  "description": "集成了智能排队刷课、视频倍速播放、自动翻阅图文PPT、无感跳过已完成任务与测验、自动答题及题库多格式导出等全能功能。",
   "icons": {
     "16": "icons/stack-of-books.png",
     "48": "icons/stack-of-books.png",
     "128": "icons/stack-of-books.png"
   },
-  "action": {
-    "default_icon": {
-      "16": "icons/stack-of-books.png",
-      "48": "icons/stack-of-books.png",
-      "128": "icons/stack-of-books.png"
-    },
-    "default_title": "点击打开学习通助手"
-  },
-
-
   "permissions": [
-    "activeTab",
     "storage"
   ],
   "content_scripts": [
     {
       "matches": [
         "*://*.chaoxing.com/*",
-        "*://*.erya100.com/*"
+        "*://*.erya100.com/*",
+        "*://*.xuexitong.com/*"
       ],
       "js": [
         "xlsx.full.min.js",
         "utils.js",
-        "pagination.js", 
+        "pagination.js",
         "ui.js",
+        "video.js",
+        "doc.js",
         "scraper.js",
         "solver.js",
         "main.js"
